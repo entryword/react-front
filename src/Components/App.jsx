@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
-import HomePage from './HomePage';
+// import HomePage from './HomePage';
+import About from './About/About'
 import NavBar from './HeaderComponent/NavBar';
-import Menu from './Menu/Menu'
+import MainMenu from './Menu/MainMenu'
 import Footer from './FooterComponent/Footer';
 class App extends Component {
   render() {
@@ -11,8 +12,8 @@ class App extends Component {
       <Router>
         <div>
           <NavBar />
-          <Menu />
-          <Route name="home" exact path="/" component={HomePage} />
+          <MainMenu />
+          <Route name="About" exact path="/" component={About} />
           <Footer />
         </div>
       </Router>

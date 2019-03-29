@@ -7,7 +7,7 @@ class Menu extends Component {
     return (
       <header>
         <ul id="headerButtons">
-          <img src={logo} alt="Logo" class="Logo"/>;
+          <img src={logo} alt="Logo" className="Logo"/>;
           {/*<li className="navButton"><Link to="">Home</Link></li>*/}
           {/*<button class="ui secondary button">Click Here</button>*/}
         </ul>
