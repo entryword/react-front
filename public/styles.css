@@ -24,3 +24,11 @@ footer {
   color: white;
 }
 
+.Logo {
+  /*background-image: url(../src/file/logo.png);*/
+  /*border-style: dotted;*/
+  max-width: 400px;
+  height: auto;
+}
+
+

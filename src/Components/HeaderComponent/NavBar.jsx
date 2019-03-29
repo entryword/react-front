@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
+import logo from '../../file/logo.png';
 import { Link } from 'react-router-dom';
 
-class NavBar extends Component {
+class Menu extends Component {
   render() {
     return (
       <header>
         <ul id="headerButtons">
-          
-          <li className="navButton"><Link to="">Home</Link></li>
-          <button class="ui secondary button">Click Here</button>
+          <img src={logo} alt="Logo" class="Logo"/>;
+          {/*<li className="navButton"><Link to="">Home</Link></li>*/}
+          {/*<button class="ui secondary button">Click Here</button>*/}
         </ul>
       </header>
     )
   }
 }
 
-export default NavBar;
+export default Menu;
